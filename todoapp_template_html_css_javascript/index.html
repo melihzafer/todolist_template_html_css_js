@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>ToDo List App</title>
+</head>
+<body>
+    <P>Please confirm your ToDo by clicking on it.</P>
+  <div class="container">
+    <h1>ToDo List</h1>
+    <div id="app">
+      <input type="text" id="taskInput" placeholder="Add a new task">
+      <button id="addTaskBtn" onclick="addTask()">Add Task</button>
+      <ul id="taskList">
+        <!-- <li style="opacity: 0;"> List Item will be parsed from JS</li> -->
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
